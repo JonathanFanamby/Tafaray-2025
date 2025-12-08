@@ -24,6 +24,11 @@ section{
   padding-block: 20px;
 }
 
+.scaler:hover{
+  transform: scale(1.1);
+  transition:  0.5s ease-in-out;
+}
+
 
 .App{
   background: linear-gradient(180deg,#010101 60%,#010101 90%);

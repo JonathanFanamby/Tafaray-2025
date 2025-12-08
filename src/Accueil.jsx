@@ -43,18 +43,18 @@ function Accueil() {
         <img src={ask}  alt="" className='w-[100px] sm:w-[190px]' />
        </figure>
         <figure className='absolute bottom-0 right-0 -z-30'>
-            <img src={bottom} className='w-[100px]' alt="" />
+            <img src={bottom} className='w-[100px] ' alt="" />
         </figure>
 
     </section>
     <section  className=' grid w-[80%] sm:grid-cols-2 grid-cols-1 justify-self-center gap-10 '>
 
-        <div className='cadre-accueil p-4 '>
-            <h2 className='text-[40px] font-bold'>Maths-Info</h2>
+        <div className='cadre-accueil p-4 scaler'>
+            <h2 className='text-[40px] font-bold '>Maths-Info</h2>
             <p>Notre mention </p>
         </div>
 
-        <div className='cadre-accueil p-4 '>
+        <div className='cadre-accueil p-4 scaler'>
             <h2 className='text-[40px] font-bold'>Membres</h2>
             <p>+12 membres</p>
         </div>
@@ -111,8 +111,8 @@ function Accueil() {
     <section>
         <h1 className='font-bold text-[70px] text-center background-text' style={{paddingBottom:'50px'}}># Profils</h1>
         <div className='grid grid-cols-1 gap-16 justify-items-center content-start'>
-            <div className='text-center font-semibold background-profil' >
-            <figure className='w-full'>
+            <div className='text-center font-semibold background-profil scaler' >
+            <figure className='w-full '>
                 <img src="Esperan.jpg" className='rounded-[4px]' alt="" />
             </figure>
                 <h4 className='font-medium text-[25px] text-[#f8f8f8] text-left px-[10px] line-clamp-2' >RAMANANA Eli Brudo Espéran</h4>
@@ -120,7 +120,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='text-center font-semibold background-profil' >
+        <div className='text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Fitiavana.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -129,7 +129,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='text-center font-semibold background-profil' >
+        <div className='text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Fidelice.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -138,7 +138,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - Fonda</p>
         </div>
 
-        <div className='text-center font-semibold background-profil' >
+        <div className='text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Voaharitiana.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -147,16 +147,16 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - Fonda</p>
         </div>
 
-        <div className='text-center font-semibold background-profil' >
+        <div className='text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Zidia.jpg" className='rounded-[4px]' alt="" />
             </figure>
-                <h4 className='font-medium text-[25px] text-[#f8f8f8] text-left px-[10px] line-clamp-2' >RAZANANDRASOA Zidia Hortence</h4>
+                <h4 className='font-medium text-[25px] text-[#f8f8f8] text-left px-[10px] line-clamp-2' >RAZANADRASOA Zidia Hortence</h4>
                 <p className='text-left text-[#c5c5c5]'> Communication <br /> De : Tamatave ⅠⅠ</p>
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - Fonda</p>
         </div>
 
-        <div className='text-center font-semibold background-profil' >
+        <div className='text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Willida.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -165,7 +165,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='text-center font-semibold background-profil' >
+        <div className='text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Zico.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -174,7 +174,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - Fonda</p>
         </div>
 
-        <div className='text-center font-semibold background-profil' >
+        <div className='text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Sarah.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -183,7 +183,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='text-center font-semibold background-profil' >
+        <div className='text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Tsito.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -192,7 +192,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='text-center font-semibold background-profil' >
+        <div className='text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Annah.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -201,7 +201,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='text-center font-semibold background-profil' >
+        <div className='text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Jonathan.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -224,98 +224,98 @@ function Accueil() {
        
         <div className='grid grid-cols-1 text-[#f8f8f881] md:grid-cols-2 justify-self-center gap-10 '>
 
-        <div className='w-[320px] carte-content'>
+        <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte1} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2024 - Premier évènement</p>
         </div>
 
-        <div className='w-[320px] carte-content'>
+        <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte2} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2024 - Premier évènement</p>
         </div>
 
-         <div className='w-[320px] carte-content'>
+         <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte3} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2024 - Premier évènement</p>
         </div>
 
-        <div className='w-[320px] carte-content'>
+        <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte4} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2024 - Premier évènement</p>
         </div>
 
-        <div className='w-[320px] carte-content'>
+        <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte5} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Mars 2025 - Deuscième évènement</p>
         </div>
 
-        <div className='w-[320px] carte-content'>
+        <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte6} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Mars 2025 - Deuscième évènement</p>
         </div>
 
-        <div className='w-[320px] carte-content'>
+        <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte7} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Mars 2025 - Deuscième évènement</p>
         </div>
 
-        <div className='w-[320px] carte-content'>
+        <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte8} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Mai 2025 - Troisième évènement</p>
         </div>
 
-        <div className='w-[320px] carte-content'>
+        <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte9} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Mai 2025 - Troisième évènement</p>
         </div>
 
-        <div className='w-[320px] carte-content'>
+        <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte10} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2025 - Quatrième évènement</p>
         </div>
 
-       <div className='w-[320px] carte-content'>
+       <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte11} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2025 - Quatrième évènement</p>
         </div>
 
-        <div className='w-[320px] carte-content'>
+        <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte12} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2025 - Quatrième évènement</p>
         </div>
 
-         <div className='w-[320px] carte-content'>
+         <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte13} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2025 - Quatrième évènement</p>
         </div>
 
-         <div className='w-[320px] carte-content'>
+         <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte14} className='carte' alt="" />
             </figure>
