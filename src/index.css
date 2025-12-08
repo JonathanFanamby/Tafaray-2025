@@ -1,0 +1,118 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+@font-face {
+  font-family: "galnoy";
+  src: url("./assets/galnoy-bolddisplay.otf");
+}
+
+@font-face {
+  font-family: "sharp";
+  src: url("./assets/SharpSansDispNo1-Medium-BF6465806e76e81.otf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sharp";
+}
+section{
+  padding-block: 20px;
+}
+
+.App{
+  background: linear-gradient(180deg,#010101 60%,#010101 90%);
+  backdrop-filter: blur(40px); 
+  filter: brightness(1.5);
+  overflow-x: hidden; 
+  color: #f8f8f8; 
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left:0;
+  right:0;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  height: 56px;
+  width: 100%;
+  background: linear-gradient(180deg,#0101013b,#01010142);
+  backdrop-filter: blur(40px); 
+  filter: brightness(1.5);
+  @apply sm:px-[10%] px-[10px] pt-2;
+    z-index: 10000;
+ }
+
+ .accueil{
+  @apply pt-[100px] sm:px-[10%] px-[10px] ; 
+
+ }
+ .title{
+  font-family: "galnoy";
+  line-height: 42px;
+  @apply py-5 ;
+ }
+
+.cadre-accueil{
+  background: linear-gradient(to bottom,#1a1a1a,#191919,#181818,#171717,#161616,#151515,#141414,#131313,#121212,#111111,#101010);
+  backdrop-filter: blur(20px);
+  filter: brightness(1.4);
+  padding-block:10px ;
+  padding-inline: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 2px #f8f8f8;
+}
+
+.carte{
+  width: 360px;
+  object-fit: cover;
+  object-position: center;
+   aspect-ratio: 16/9;
+   border-radius: 4px;
+}
+.carte-content{
+  background: linear-gradient(to bottom,#010101,#010101);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 1px 0 #f8f8f834;
+  margin-block: 10px;
+}
+.background-profil{
+  background: linear-gradient(to bottom,#10101091,#11111179);
+  backdrop-filter: blur(60px);
+  box-shadow: 0 0 2px #f8f8f834;
+  aspect-ratio: 3/4;
+  padding: 10px;
+  @apply w-[350px]
+}
+
+.cadre-slogan{
+  background: linear-gradient(180deg,#1a1a1a,#191919,#181818,#171717,#161616,#151515,#141414,#131313,#121212,#111111,#101010);
+  backdrop-filter: blur(20px);
+  filter: brightness(1.4);
+  padding-block:10px ;
+  padding-inline: 20px;
+  border-radius: 100px;
+  box-shadow: 0 0 2px #f8f8f8;
+}
+
+.background-text{
+  background: linear-gradient(180deg,#146df3, #c5a432);
+  color: transparent;
+  background-clip: text;
+  backdrop-filter: blur(12px);
+  filter: brightness(1.4);
+  
+}
+.overflow-slog{
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: #daa5206b #010101;
+  height: 80px;
+ padding: 5px;
+}
