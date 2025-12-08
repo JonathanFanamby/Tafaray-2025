@@ -1,6 +1,27 @@
 import React from 'react'
 import bottom from "./assets/bottom.svg"
 import ask from "./assets/ask.svg"
+import carte1 from "./assets/1.jpg"
+import carte2 from "./assets/5.jpg"
+import carte3 from "./assets/thumb (8).jpg"
+import carte4 from "./assets/Miray.jpg"
+import carte5 from "./assets/4.jpg"
+import carte6 from "./assets/7.jpg"
+import carte7 from "./assets/thumb (4).jpg"
+import carte8 from "./assets/6.jpg"
+import carte9 from "./assets/8.jpg"
+import carte10 from "./assets/thumb (1).jpg"
+import carte11 from "./assets/thumb (2).jpg"
+import carte12 from "./assets/thumb (5).jpg"
+import carte13 from "./assets/thumb (6).jpg"
+import carte14 from "./assets/thumb (7).jpg"
+
+
+
+
+
+
+
 
 
 function Accueil() {
@@ -148,98 +169,98 @@ function Accueil() {
 
         <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/1.jpg" className='carte' alt="" />
+                <img src={carte1} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2024 - Premier évènement</p>
         </div>
 
         <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/5.jpg" className='carte' alt="" />
+                <img src={carte2} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2024 - Premier évènement</p>
         </div>
 
          <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/thumb (8).jpg" className='carte' alt="" />
+                <img src={carte3} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2024 - Premier évènement</p>
         </div>
 
         <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/Miray.jpg" className='carte' alt="" />
+                <img src={carte4} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2024 - Premier évènement</p>
         </div>
 
         <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/4.jpg" className='carte' alt="" />
+                <img src={carte5} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Mars 2025 - Deuscième évènement</p>
         </div>
 
         <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/7.jpg" className='carte' alt="" />
+                <img src={carte6} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Mars 2025 - Deuscième évènement</p>
         </div>
 
         <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/thumb (4).jpg" className='carte' alt="" />
+                <img src={carte7} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Mars 2025 - Deuscième évènement</p>
         </div>
 
         <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/6.jpg" className='carte' alt="" />
+                <img src={carte8} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Mai 2025 - Troisième évènement</p>
         </div>
 
         <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/8.jpg" className='carte' alt="" />
+                <img src={carte9} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Mai 2025 - Troisième évènement</p>
         </div>
 
         <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/thumb (1).jpg" className='carte' alt="" />
+                <img src={carte10} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2025 - Quatrième évènement</p>
         </div>
 
        <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/thumb (2).jpg" className='carte' alt="" />
+                <img src={carte11} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2025 - Quatrième évènement</p>
         </div>
 
         <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/thumb (5).jpg" className='carte' alt="" />
+                <img src={carte12} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2025 - Quatrième évènement</p>
         </div>
 
          <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/thumb (6).jpg" className='carte' alt="" />
+                <img src={carte13} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2025 - Quatrième évènement</p>
         </div>
 
          <div className='w-[320px] carte-content'>
             <figure className='w-full'>
-                <img src="src/assets/thumb (7).jpg" className='carte' alt="" />
+                <img src={carte14} className='carte' alt="" />
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2025 - Quatrième évènement</p>
         </div>
