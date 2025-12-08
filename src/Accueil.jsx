@@ -1,4 +1,4 @@
-import React from 'react'
+
 import bottom from "./assets/bottom.svg"
 import ask from "./assets/ask.svg"
 import carte1 from "./assets/1.jpg"
@@ -38,6 +38,7 @@ import "swiper/css/scrollbar";
 
 
 function Accueil() {
+
   return (
     <div className='accueil'>
     <section className='relative h-[100vh]'>
@@ -51,6 +52,7 @@ function Accueil() {
         <figure className='absolute bottom-0 right-0 -z-30'>
             <img src={bottom} className='w-[100px]' alt="" />
         </figure>
+
     </section>
     <section  className=' grid w-[80%] sm:grid-cols-2 grid-cols-1 justify-self-center gap-10 '>
 

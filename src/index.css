@@ -22,6 +22,7 @@ section{
   padding-block: 20px;
 }
 
+
 .App{
   background: linear-gradient(180deg,#010101 60%,#010101 90%);
   backdrop-filter: blur(40px); 
@@ -55,6 +56,13 @@ nav{
   font-family: "galnoy";
   line-height: 42px;
   @apply py-5 ;
+ }
+ .Load{
+  background: linear-gradient(180deg,#0101011e,rgba(4, 4, 4, 0.151));
+  backdrop-filter: blur(24px);
+ }
+ .Load-text{
+    filter:drop-shadow(0 0 60px #206adac0);
  }
 
 .cadre-accueil{
