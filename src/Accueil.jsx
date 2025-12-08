@@ -67,7 +67,7 @@ function Accueil() {
 
     <section>
         <Swiper
-                className=" h-[250] py-2  my-5 w-[380px]  justify-self-center" style={{margin: "0 auto",aspectRatio:3/4}} 
+                className=" h-full py-2  my-5 w-[380px]  justify-self-center" style={{margin: "0 auto",aspectRatio:3/4}} 
                 modules={[Navigation, Autoplay, Pagination, Scrollbar, A11y]}
                 spaceBetween={50}
                 slidesPerView={1}
