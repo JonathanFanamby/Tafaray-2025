@@ -17,6 +17,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "sharp";
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 section{
   padding-block: 20px;

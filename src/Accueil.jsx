@@ -30,13 +30,6 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 
-
-
-
-
-
-
-
 function Accueil() {
 
   return (
@@ -45,7 +38,7 @@ function Accueil() {
         <p className='text-[17px]'>Bonjour, nous sommes le groupe </p>
         <h1 className='sm:text-[64px] font-black text-[40px] title background-text'>TAFARAY Maths-Info</h1>
         <p className='text-[#f8f8f84d] text-[17px]'>Chez groupe Tafaray, notre objectif est de réussir ensemble. Nous travaillons en collaboration pour atteindre nos objectifs communs et nous entraider mutuellement pour créer des expériences positives et enrichissantes pour tous. Parfois nous faisons une pause ensemble à l'air libre... </p>
-        <h4 style={{paddingBlock:'10px'}} className='text-[17px] font-medium'>En savoir plus </h4>
+        <a href="#savoir" style={{paddingBlock:'10px'}} className='text-[17px] font-medium'>En savoir plus </a>
        <figure className='flex justify-center '>
         <img src={ask}  alt="" className='w-[100px] sm:w-[190px]' />
        </figure>
@@ -67,7 +60,7 @@ function Accueil() {
         </div>
     </section>
 
-    <section>
+    <section id="savoir">
         <Swiper
                 className=" h-full py-2  my-5 w-[380px]  justify-self-center" style={{margin: "0 auto",aspectRatio:3/4}} 
                 modules={[Navigation, Autoplay, Pagination, Scrollbar, A11y]}
@@ -110,6 +103,9 @@ function Accueil() {
                     <img src="news (10).jpg" className='py-2 w-[360px] rounded-[4px]'style={{aspectRatio:3/4, objectFit:'cover'}}   alt="" />
                 </SwiperSlide>
               </Swiper>
+    </section>
+    <section className="flex justify-center">
+        <img src="meet.svg" className="w-[400px]" alt="" />
     </section>
 
     <section>
@@ -200,7 +196,7 @@ function Accueil() {
             <figure className='w-full'>
                 <img src="Annah.jpg" className='rounded-[4px]' alt="" />
             </figure>
-                <h4 className='font-medium text-[25px] text-[#f8f8f8] text-left px-[10px] line-clamp-2' >RASAMIHANTA Marie Willida</h4>
+                <h4 className='font-medium text-[25px] text-[#f8f8f8] text-left px-[10px] line-clamp-2' >	RAKOTOARIVONY Fanilonomena Annah</h4>
                 <p className='text-left text-[#c5c5c5]'> Trésorière & Passionnée de la cuisine <br /> De : Ambatondrazaka</p>
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
@@ -218,7 +214,9 @@ function Accueil() {
     </section>
 
 
-
+    <section className="flex justify-center">
+        <img src="blog.svg" className="w-[400px]" alt="" />
+    </section>
 
 
     <section>
@@ -325,6 +323,11 @@ function Accueil() {
         </div>
 
         </div>
+    </section>
+
+
+    <section className="flex justify-center">
+        <img src="team.svg" className="w-[400px]" alt="" />
     </section>
 
     <section>
