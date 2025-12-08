@@ -16,6 +16,19 @@ import carte12 from "./assets/thumb (5).jpg"
 import carte13 from "./assets/thumb (6).jpg"
 import carte14 from "./assets/thumb (7).jpg"
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import {
+  A11y,
+  Navigation,
+  Pagination,
+  Scrollbar,
+  Autoplay,
+} from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+
 
 
 
@@ -48,10 +61,54 @@ function Accueil() {
 
         <div className='cadre-accueil p-4 '>
             <h2 className='text-[40px] font-bold'>Membres</h2>
-            <p>plus de 12 membres</p>
+            <p>+12 membres</p>
         </div>
     </section>
 
+    <section>
+        <Swiper
+                className=" h-[250] py-2  my-5 w-[380px]  justify-self-center" style={{margin: "0 auto",aspectRatio:3/4}} 
+                modules={[Navigation, Autoplay, Pagination, Scrollbar, A11y]}
+                spaceBetween={50}
+                slidesPerView={1}
+                centeredSlides={true}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+                pagination={{ clickable: true }}
+                scrollbar={{ draggable: true }}
+                onSlideChange={() => console.log("slide niova")}
+                onSwiper={(swiper) => console.log(swiper)}
+              >
+                <SwiperSlide className="w-full">
+                  <img src="news (4).jpg" className='py-2 w-[360px] rounded-[4px]' style={{aspectRatio:3/4, objectFit:'cover'}}  alt="" />
+                </SwiperSlide>
+
+                <SwiperSlide className="w-full">
+                  <img src="news (5).jpg" className='py-2 w-[360px] rounded-[4px]' style={{aspectRatio:3/4, objectFit:'cover'}}  alt="" />
+                </SwiperSlide>
+
+                <SwiperSlide className="w-full">
+                  <img src="news (2).jpg" className='py-2 w-[360px] rounded-[4px]' style={{aspectRatio:3/4, objectFit:'cover'}}  alt="" />
+                </SwiperSlide>
+                <SwiperSlide className="w-full">
+                  <img src="news (3).jpg" className='py-2 w-[360px] rounded-[4px]' style={{aspectRatio:3/4, objectFit:'cover'}}   alt="" />
+                </SwiperSlide>
+               <SwiperSlide className="w-full">
+                    <img src="news (6).jpg" className='py-2 w-[360px] rounded-[4px]' style={{aspectRatio:3/4, objectFit:'cover'}}   alt="" />
+                </SwiperSlide>
+                <SwiperSlide className="w-full py-4">
+                    <img src="news (7).jpg" className='py-2 w-[360px] rounded-[4px]' style={{aspectRatio:3/4, objectFit:'cover'}}  alt="" />
+                </SwiperSlide>
+                 <SwiperSlide className="w-full py-4">
+                    <img src="news (9).jpg" className='py-2 w-[360px] rounded-[4px]' style={{aspectRatio:3/4, objectFit:'cover'}}  alt="" />
+                </SwiperSlide>
+                <SwiperSlide className="w-full py-4">
+                    <img src="news (10).jpg" className='py-2 w-[360px] rounded-[4px]'style={{aspectRatio:3/4, objectFit:'cover'}}   alt="" />
+                </SwiperSlide>
+              </Swiper>
+    </section>
 
     <section>
         <h1 className='font-bold text-[70px] text-center background-text' style={{paddingBottom:'50px'}}># Profils</h1>
@@ -107,7 +164,7 @@ function Accueil() {
             </figure>
                 <h4 className='font-medium text-[25px] text-[#f8f8f8] text-left px-[10px] line-clamp-2' >RASAMIHANTA Marie Willida</h4>
                 <p className='text-left text-[#c5c5c5]'> Animatrice & Danceuse <br /> De : Mananara - Nord</p>
-                <p className='text-left text-[#c5c5c5]'> Parcours : Maths - Fonda</p>
+                <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
         <div className='text-center font-semibold background-profil' >
