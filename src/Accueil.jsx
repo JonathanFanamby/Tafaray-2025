@@ -28,17 +28,18 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import useLenis from "./useLenis"
 
 
 function Accueil() {
-
+useLenis()
   return (
     <div className='accueil'>
     <section className='relative h-[100vh]'>
         <p className='text-[17px]'>Bonjour, nous sommes le groupe </p>
         <h1 className='sm:text-[64px] font-black text-[40px] title background-text'>TAFARAY Maths-Info</h1>
         <p className='text-[#f8f8f84d] text-[17px]'>Chez groupe Tafaray, notre objectif est de réussir ensemble. Nous travaillons en collaboration pour atteindre nos objectifs communs et nous entraider mutuellement pour créer des expériences positives et enrichissantes pour tous. Parfois nous faisons une pause ensemble à l'air libre... </p>
-        <a href="#savoir" style={{paddingBlock:'10px'}} className='text-[17px] font-medium'>En savoir plus </a>
+        <a href="#savoir"   className='text-[17px] font-medium'>En savoir plus </a>
        <figure className='flex justify-center '>
         <img src={ask}  alt="" className='w-[100px] sm:w-[190px]' />
        </figure>
@@ -110,6 +111,7 @@ function Accueil() {
 
     <section>
         <h1 className='font-bold text-[70px] text-center background-text' style={{paddingBottom:'50px'}}># Profils</h1>
+
         <div className='grid grid-cols-1 gap-16 justify-items-center content-start'>
             <div className='text-center font-semibold background-profil scaler' >
             <figure className='w-full '>
@@ -326,7 +328,7 @@ function Accueil() {
     </section>
 
 
-    <section className="flex justify-center">
+    <section className="flex  justify-center" >
         <img src="team.svg" className="w-[400px]" alt="" />
     </section>
 
