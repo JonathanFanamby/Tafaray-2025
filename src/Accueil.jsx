@@ -28,12 +28,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import useLenis from "./useLenis"
 
+'use client';
+import { ReactLenis } from 'lenis/react';
 
 function Accueil() {
-useLenis()
+
   return (
+    <ReactLenis root>
     <div className='accueil'>
     <section className='relative h-[100vh]'>
         <p className='text-[17px]'>Bonjour, nous sommes le groupe </p>
@@ -354,10 +356,8 @@ useLenis()
         </div>
     </div>
     </section>
-        
-
-
     </div>
+    </ReactLenis>
   )
 }
 

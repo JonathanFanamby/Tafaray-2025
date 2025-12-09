@@ -2,6 +2,7 @@ import Accueil from "./Accueil"
 import Footer from "./Footer"
 import Navbar from "./Navbar"
 import React, { useEffect, useState } from 'react'
+import Test from './Test'
 
 
 function App() {
@@ -22,8 +23,9 @@ const [Loading, setLoading] = useState(true);
   return (
     <div className='sm:px-[15%] px-[15px]'>
         <Navbar/>
+        <Test/>
         <Accueil/>
-        <Footer/>  
+        <Footer/> 
     </div>
   )
 }
