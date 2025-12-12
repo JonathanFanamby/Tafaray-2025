@@ -37,7 +37,7 @@ function Accueil() {
   return (
     <ReactLenis root>
     <div className='accueil'>
-    <section className='relative h-[100vh]'>
+    <section className='  relative h-[100vh]'>
         <p className='text-[17px]'>Bonjour, nous sommes le groupe </p>
         <h1 className='sm:text-[64px] font-black text-[40px] title background-text'>TAFARAY Maths-Info</h1>
         <p className='text-[#f8f8f84d] text-[17px]'>Chez groupe Tafaray, notre objectif est de réussir ensemble. Nous travaillons en collaboration pour atteindre nos objectifs communs et nous entraider mutuellement pour créer des expériences positives et enrichissantes pour tous. Parfois nous faisons une pause ensemble à l'air libre... </p>
@@ -50,7 +50,7 @@ function Accueil() {
         </figure>
 
     </section>
-    <section  className=' grid w-[80%] sm:grid-cols-2 grid-cols-1 justify-self-center gap-10 '>
+    <section  className='grid w-[80%]  sm:grid-cols-2 grid-cols-1 justify-self-center gap-10 '>
 
         <div className='cadre-accueil p-4 scaler'>
             <h2 className='text-[40px] font-bold '>Maths-Info</h2>
@@ -110,21 +110,21 @@ function Accueil() {
     <section className="flex justify-center">
         <img src="meet.svg" className="w-[400px]" alt="" />
     </section>
-
+        <ReactLenis root>
     <section>
         <h1 className='font-bold text-[70px] text-center background-text' style={{paddingBottom:'50px'}}># Profils</h1>
 
         <div className='grid grid-cols-1 gap-16 justify-items-center content-start'>
-            <div className='text-center font-semibold background-profil scaler' >
+            <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full '>
                 <img src="Esperan.jpg" className='rounded-[4px]' alt="" />
             </figure>
                 <h4 className='font-medium text-[25px] text-[#f8f8f8] text-left px-[10px] line-clamp-2' >RAMANANA Eli Brudo Espéran</h4>
                 <p className='text-left text-[#c5c5c5]'> Président <br /> De : Vondrozo</p>
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
-        </div>
+            </div>
 
-        <div className='text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Fitiavana.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -133,7 +133,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Fidelice.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -142,7 +142,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - Fonda</p>
         </div>
 
-        <div className='text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Voaharitiana.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -151,7 +151,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - Fonda</p>
         </div>
 
-        <div className='text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Zidia.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -160,7 +160,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - Fonda</p>
         </div>
 
-        <div className='text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Willida.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -169,7 +169,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Zico.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -178,7 +178,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - Fonda</p>
         </div>
 
-        <div className='text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Sarah.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -187,7 +187,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Tsito.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -196,7 +196,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Annah.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -205,7 +205,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Jonathan.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -214,20 +214,18 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
         </div>
-
     </section>
-
+    </ReactLenis>
 
     <section className="flex justify-center">
         <img src="blog.svg" className="w-[400px]" alt="" />
     </section>
 
-
     <section>
         <h1 className='font-medium text-[70px] text-center background-text' style={{paddingBottom:'80px',lineHeight:'70px'}}>Explorer plus à propos de Tafaray</h1>
        
         <div className='grid grid-cols-1 text-[#f8f8f881] md:grid-cols-2 justify-self-center gap-10 '>
-
+        
         <div className='w-[320px] carte-content scaler'>
             <figure className='w-full'>
                 <img src={carte1} className='carte' alt="" />
@@ -325,7 +323,7 @@ function Accueil() {
             </figure>
             <p style={{padding:'10px', fontWeight:'500'}}>Septembre 2025 - Quatrième évènement</p>
         </div>
-
+        
         </div>
     </section>
 

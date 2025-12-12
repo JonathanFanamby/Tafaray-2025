@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react'
 import Test from './Test'
 
 
+
 function App() {
 const [Loading, setLoading] = useState(true);
     useEffect(() => {
@@ -26,6 +27,7 @@ const [Loading, setLoading] = useState(true);
         <Test/>
         <Accueil/>
         <Footer/> 
+
     </div>
   )
 }
