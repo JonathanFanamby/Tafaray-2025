@@ -114,8 +114,8 @@ function Accueil() {
     <section>
         <h1 className='font-bold text-[70px] text-center background-text' style={{paddingBottom:'50px'}}># Profils</h1>
 
-        <div className='grid grid-cols-1 gap-16 justify-items-center content-start'>
-            <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
+        <div className='grid grid-cols-1 gap-20 justify-items-center content-start'>
+            <div className='sticky top-[60px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full '>
                 <img src="Esperan.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -124,7 +124,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
             </div>
 
-        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[60px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Fitiavana.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -133,7 +133,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[60px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Fidelice.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -142,7 +142,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - Fonda</p>
         </div>
 
-        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[60px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Voaharitiana.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -151,7 +151,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - Fonda</p>
         </div>
 
-        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[60px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Zidia.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -160,7 +160,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - Fonda</p>
         </div>
 
-        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[60px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Willida.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -169,7 +169,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[60px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Zico.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -178,7 +178,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - Fonda</p>
         </div>
 
-        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[60px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Sarah.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -187,7 +187,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[60px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Tsito.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -196,7 +196,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[60px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Annah.jpg" className='rounded-[4px]' alt="" />
             </figure>
@@ -205,7 +205,7 @@ function Accueil() {
                 <p className='text-left text-[#c5c5c5]'> Parcours : Maths - State - Info</p>
         </div>
 
-        <div className='sticky top-[56px] left-0 right-0 text-center font-semibold background-profil scaler' >
+        <div className='sticky top-[60px] left-0 right-0 text-center font-semibold background-profil scaler' >
             <figure className='w-full'>
                 <img src="Jonathan.jpg" className='rounded-[4px]' alt="" />
             </figure>
